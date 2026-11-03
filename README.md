@@ -1,5 +1,7 @@
 # Qixu
 
+![Qixu 品牌横幅](docs/images/qixu-banner.svg)
+
 Qixu 是一款用 Swift 和 SwiftUI 编写的 macOS 空间与系统管理工具，支持清理复核、软件管理、磁盘分析和系统维护。项目开发参考了对 Mole 1.12.1 的行为分析，使用独立实现。
 
 ## 构建与打开
@@ -15,6 +17,8 @@ open dist/Qixu.app
 构建脚本仅对当前应用进行本机临时签名，不修改系统开发工具设置。生成的应用位于 `dist/Qixu.app`，可单独复制到 Applications。Bundle ID 为 `dev.local.MoleRebuild`，与原 Mole 独立。跨机器分发仍需要开发者签名与公证。
 
 ## 功能
+
+![Qixu 功能导览，涵盖存储、应用、系统状态与维护](docs/images/qixu-overview.svg)
 
 - 清理空间：四类明确目录扫描，分类、搜索、逐项复核、排除名单、JSON 报告。
 - 软件管理：应用清单、版本、签名身份、运行状态、关联数据扫描和卸载复核。未匹配数据支持自定义应用目录及内嵌组件归属核对。

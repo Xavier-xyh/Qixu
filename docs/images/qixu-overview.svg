@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="208" viewBox="0 0 960 208" role="img" aria-labelledby="title">
+  <title id="title">Qixu feature overview: storage, apps, system and maintenance</title>
+  <rect width="960" height="208" rx="24" fill="#171d38"/>
+  <g font-family="system-ui, sans-serif">
+    <g transform="translate(24 24)">
+      <rect width="219" height="160" rx="18" fill="#252e50"/>
+      <path d="M22 30h24v22H22z M22 45h24 M40 48h2" fill="none" stroke="#ffab6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="22" y="94" font-size="24" font-weight="650" fill="#faf5e8">Storage</text>
+      <text x="22" y="126" font-size="15" fill="#c9d3ef">Scan and review files</text>
+    </g>
+    <g transform="translate(255 24)">
+      <rect width="219" height="160" rx="18" fill="#252e50"/>
+      <path d="M22 30h24v22H22z M22 39h24 M31 39v13" fill="none" stroke="#b5c2e8" stroke-width="2" stroke-linejoin="round"/>
+      <text x="22" y="94" font-size="24" font-weight="650" fill="#faf5e8">Apps</text>
+      <text x="22" y="126" font-size="15" fill="#c9d3ef">Inventory and updates</text>
+    </g>
+    <g transform="translate(486 24)">
+      <rect width="219" height="160" rx="18" fill="#252e50"/>
+      <path d="M22 42h6l4-9 5 16 4-7h6" fill="none" stroke="#ffab6e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="22" y="94" font-size="24" font-weight="650" fill="#faf5e8">System</text>
+      <text x="22" y="126" font-size="15" fill="#c9d3ef">Live usage metrics</text>
+    </g>
+    <g transform="translate(717 24)">
+      <rect width="219" height="160" rx="18" fill="#252e50"/>
+      <path d="M22 34h24 M22 42h24 M22 50h24 M29 31v6 M40 39v6 M33 47v6" fill="none" stroke="#b5c2e8" stroke-width="2" stroke-linecap="round"/>
+      <text x="22" y="94" font-size="24" font-weight="650" fill="#faf5e8">Maintenance</text>
+      <text x="22" y="126" font-size="15" fill="#c9d3ef">Network and startup</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title">
+  <title id="title">Qixu — macOS workspace utility</title>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#2b335c"/>
+      <stop offset="1" stop-color="#121730"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#b5c2e8" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="frame"><rect width="960" height="300" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="960" height="300" fill="url(#background)"/>
+    <rect x="570" width="390" height="300" fill="url(#grid)"/>
+    <circle cx="802" cy="149" r="116" fill="none" stroke="#b5c2e8" stroke-opacity=".28"/>
+    <circle cx="802" cy="149" r="95" fill="none" stroke="#b5c2e8" stroke-opacity=".14"/>
+    <rect x="729" y="76" width="146" height="146" rx="37" fill="#1c2345" stroke="#b5c2e8" stroke-opacity=".5"/>
+    <rect x="767" y="115" width="72" height="17" rx="6" fill="#ffab6e"/>
+    <rect x="767" y="139" width="55" height="17" rx="6" fill="#faf5e8"/>
+    <rect x="767" y="163" width="37" height="17" rx="6" fill="#b5c2e8"/>
+    <circle cx="829" cy="172" r="6" fill="#ffab6e"/>
+    <g font-family="system-ui, sans-serif">
+      <text x="64" y="89" font-size="16" font-weight="650" letter-spacing="3" fill="#ffab6e">MAC WORKSPACE</text>
+      <text x="59" y="172" font-size="86" font-weight="750" fill="#faf5e8">Qixu</text>
+      <text x="64" y="221" font-size="22" fill="#d0d9f1">Storage, apps &amp; system maintenance</text>
+    </g>
+  </g>
+</svg>
