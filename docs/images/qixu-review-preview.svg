@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Qixu cleanup review interface preview</title>
+  <desc id="desc">Illustrative cleanup review with categorized items and a confirmation step. This is not a captured application screenshot.</desc>
+  <rect width="1200" height="720" rx="32" fill="#edf2f8"/>
+  <rect x="52" y="44" width="1096" height="632" rx="24" fill="#fff"/>
+  <path d="M76 44h190a24 24 0 0 1 24 24v584a24 24 0 0 1-24 24H76a24 24 0 0 1-24-24V68a24 24 0 0 1 24-24" fill="#f7f9fc"/>
+  <g font-family="system-ui,-apple-system,sans-serif">
+    <rect x="78" y="74" width="40" height="40" rx="12" fill="#252d55"/><rect x="88" y="85" width="20" height="6" rx="3" fill="#ffad72"/><rect x="88" y="95" width="16" height="6" rx="3" fill="#faf5e8"/><rect x="88" y="105" width="10" height="4" rx="2" fill="#b8c4eb"/><text x="130" y="102" font-size="22" font-weight="700" fill="#202642">Qixu</text>
+    <text x="96" y="213" font-size="16" fill="#525b70">▦　Overview</text><rect x="70" y="232" width="208" height="46" rx="13" fill="#e6f7f7"/><text x="96" y="261" font-size="16" font-weight="650" fill="#178d9a">✦　Storage</text><text x="96" y="314" font-size="16" fill="#525b70">▱　Apps</text><text x="96" y="362" font-size="16" fill="#525b70">◉　Disk analysis</text><text x="96" y="410" font-size="16" fill="#525b70">⌁　System status</text><text x="96" y="458" font-size="16" fill="#525b70">⚒　Maintenance</text>
+    <text x="322" y="108" font-size="14" font-weight="700" letter-spacing="2.5" fill="#25aeb8">STORAGE</text><text x="322" y="156" font-size="34" font-weight="720" fill="#202642">Review before cleanup</text><text x="322" y="186" font-size="15" fill="#81879a">Inspect scan results and choose what to handle.</text>
+    <rect x="322" y="218" width="786" height="102" rx="18" fill="#f6f7fa"/><text x="346" y="255" font-size="16" font-weight="650" fill="#29304b">Scan summary</text><text x="346" y="282" font-size="14" fill="#858b9c">Categories stay separate so each item can be reviewed.</text><rect x="947" y="239" width="132" height="48" rx="13" fill="#e9f7f6"/><text x="971" y="269" font-size="14" font-weight="650" fill="#178d9a">Review items</text>
+    <text x="322" y="372" font-size="20" font-weight="680" fill="#202642">Categories</text>
+    <g>
+      <rect x="322" y="394" width="786" height="58" rx="12" fill="#fff" stroke="#e7e9ef"/><circle cx="348" cy="423" r="9" fill="#d9eff0"/><text x="370" y="428" font-size="15" font-weight="630" fill="#29304b">Caches</text><text x="680" y="428" font-size="13" fill="#858b9c">Individual items available for review</text><text x="1053" y="428" font-size="14" fill="#798197">›</text>
+      <rect x="322" y="462" width="786" height="58" rx="12" fill="#fff" stroke="#e7e9ef"/><circle cx="348" cy="491" r="9" fill="#e9eafa"/><text x="370" y="496" font-size="15" font-weight="630" fill="#29304b">Logs</text><text x="680" y="496" font-size="13" fill="#858b9c">Paths and sizes shown before action</text><text x="1053" y="496" font-size="14" fill="#798197">›</text>
+      <rect x="322" y="530" width="786" height="58" rx="12" fill="#fff" stroke="#e7e9ef"/><circle cx="348" cy="559" r="9" fill="#fff0e4"/><text x="370" y="564" font-size="15" font-weight="630" fill="#29304b">App support data</text><text x="680" y="564" font-size="13" fill="#858b9c">Ownership and location checks included</text><text x="1053" y="564" font-size="14" fill="#798197">›</text>
+    </g>
+    <rect x="322" y="612" width="786" height="36" rx="10" fill="#fff7e9"/><text x="340" y="635" font-size="13" fill="#986623">No files are removed until you review and confirm.</text>
+    <text x="322" y="666" font-size="11" fill="#9aa0af">ILLUSTRATIVE UI PREVIEW</text>
+  </g>
+</svg>

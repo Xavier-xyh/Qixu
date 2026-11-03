@@ -16,6 +16,25 @@ open dist/Qixu.app
 
 构建脚本仅对当前应用进行本机临时签名，不修改系统开发工具设置。生成的应用位于 `dist/Qixu.app`，可单独复制到 Applications。Bundle ID 为 `dev.local.MoleRebuild`，与原 Mole 独立。跨机器分发仍需要开发者签名与公证。
 
+## 界面预览
+
+以下为根据当前功能绘制的界面示意，用于介绍主要工作流程；它们不是某一版本的实机截图，示例状态不代表本机检测结果。
+
+<table>
+  <tr>
+    <td width="48%"><img src="docs/images/qixu-dashboard-preview.svg" alt="Qixu 系统总览界面示意" width="560" /></td>
+    <td><strong>总览与快捷入口</strong><br />集中查看系统指标，并进入空间清理、软件管理、磁盘分析和维护工具。</td>
+  </tr>
+  <tr>
+    <td width="48%"><img src="docs/images/qixu-review-preview.svg" alt="Qixu 清理复核界面示意" width="560" /></td>
+    <td><strong>清理前逐项复核</strong><br />按类别检查扫描结果，先查看路径与归属，再明确选择要处理的项目。</td>
+  </tr>
+  <tr>
+    <td width="48%"><img src="docs/images/qixu-network-preview.svg" alt="Qixu 网络诊断界面示意" width="560" /></td>
+    <td><strong>分层网络诊断</strong><br />分别检查网络服务、DNS 解析和 HTTPS 连通性，再按诊断结果提示后续操作。</td>
+  </tr>
+</table>
+
 ## 功能
 
 ![Qixu 功能导览，涵盖存储、应用、系统状态与维护](docs/images/qixu-overview.svg)
